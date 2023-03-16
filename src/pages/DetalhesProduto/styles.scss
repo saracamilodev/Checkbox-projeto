@@ -1,0 +1,30 @@
+$color-yellow: #f6aa1c;
+$color-gray: #666666;
+$color-ellipse2: #6FEEFF;
+$color-ellipse22:#FF6969;
+$color-ellipse20:#5E5E5E;
+$color-ellipse23:#6D70B7;
+
+
+
+
+
+.product-details {
+    .title{
+        font-weight: bold;
+        font-size: 2rem; /* 32px */
+    }
+
+    .ref{
+        color: $color-gray;
+        font-size: 0.75rem;
+    }
+
+    .revlews svg{
+        color: $color-yellow;
+    }
+
+    .buy, .buy:hover{
+        background-color: $color-yellow;
+    }
+}
