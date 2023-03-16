@@ -28,7 +28,7 @@ export default function CheckboxLabels() {
         <FormControlLabel control={<Checkbox />} label="Unisex" />
         <p><strong>Estado</strong></p>
         <FormControlLabel control={<Radio />} label="Novo" />
-        <FormControlLabel control={<Radio />} label="Usado" />
+        <FormControlLabel control={<Radio color="success" />} label="Usado" />
 
     </FormGroup>
     </div>
